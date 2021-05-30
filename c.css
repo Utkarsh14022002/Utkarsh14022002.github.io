@@ -1,0 +1,247 @@
+    @media only screen and (max-width: 1208px) {
+        .btn {
+            width: 15%;
+        }
+        .btn1 {
+            width: 15%;
+        }
+    }
+    
+    @media only screen and (max-width: 1025px) {
+        .navbar ul {
+            width: 60%;
+        }
+        .navbar div.search {
+            width: 40%;
+        }
+        .btn {
+            width: 18%;
+        }
+    }
+    
+    @media only screen and (max-width: 860px) {
+        section.main .box .box1 p {
+            padding: 0 150px;
+        }
+        .navbar ul div img {
+            height: 44px;
+            width: 50px;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .btn1 {
+            width: 20%;
+        }
+        section.main .box .box1 {
+            width: 60%;
+        }
+        section.main .box .box2 {
+            width: 40%;
+        }
+        section.main .box .box1 p {
+            padding: 0 100px;
+        }
+        .navbar div.search button {
+            font-size: 10px;
+        }
+    }
+    
+    @media only screen and (max-width: 720px) {
+        .navbar ul {
+            width: 410px;
+        }
+        .navbar div.search {
+            width: 250px;
+        }
+        .navbar ul li a {
+            padding: 10px;
+            font-size: 15px;
+        }
+        .btn {
+            width: 60px;
+        }
+        .navbar div.search input {
+            width: 80px;
+        }
+        section.main .box .box1 {
+            width: 50%;
+        }
+        section.main .box .box2 {
+            width: 50%;
+        }
+        section.main .box .box1 p {
+            font-size: 15px;
+            padding: 0 60px;
+        }
+        section.main .box .box1 h1 {
+            font-size: 20px;
+        }
+        .btn1 {
+            font-size: 10px;
+            width: 25%;
+        }
+    }
+    
+    @media only screen and (max-width: 640px) {
+        .navbar {
+            flex-direction: column;
+            transition: all 1s ease-out;
+            height: 240px;
+        }
+        .navbar ul {
+            flex-direction: column;
+            padding: 5px;
+            font-size: 20px;
+        }
+        .navbar .search {
+            padding: 5px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .navbar ul div {
+            width: 410px;
+        }
+        .burger {
+            display: block;
+        }
+        .b {
+            height: 50px;
+        }
+        .a {
+            opacity: 0;
+        }
+        section.main .box .box1 {
+            padding: 0 10px;
+        }
+        section.main .box .box1 h1 {
+            font-size: 30px;
+        }
+        section.main .box .box1 p {
+            font-size: 20px;
+        }
+    }
+    
+    @media only screen and (max-width: 570px) {
+        section.contact input {
+            font-size: 15px;
+            width: 300px;
+            margin: 7px auto;
+            border-radius: 10px;
+        }
+        section.contact textarea {
+            font-size: 15px;
+            width: 300px;
+            margin: 7px auto;
+            border-radius: 10px;
+        }
+        .ntn {
+            width: 20%;
+        }
+        section.contact h1 {
+            font-size: 23px;
+        }
+        section.side-main .card1 {
+            flex-direction: column;
+        }
+        section.side-main .card2 {
+            flex-direction: column;
+        }
+        section.side-main .card3 {
+            flex-direction: column;
+        }
+        section.main .box {
+            padding-top: 20px;
+        }
+        section.main .box .box1 p {
+            font-size: 12px;
+        }
+        section.main .box .box1 h1 {
+            font-size: 20px;
+        }
+        section.main .box .box1 button {
+            font-size: 10px;
+            width: 30%;
+        }
+        section.main .box .box1 {
+            width: 60%;
+        }
+        section.main .box .box2 {
+            width: 40%;
+        }
+    }
+    
+    @media only screen and (max-width:421px) {
+        section.contact {
+            width: 420px;
+        }
+        .navbar {
+            width: 420px;
+        }
+        section.main {
+            width: 420px;
+        }
+        section.side-main {
+            width: 420px;
+        }
+        footer {
+            width: 420px;
+            font-size: 15px;
+        }
+        section.contact input {
+            font-size: 12px;
+            width: 200px;
+            margin: 7px auto;
+            border-radius: 10px;
+        }
+        section.contact textarea {
+            font-size: 12px;
+            width: 200px;
+            margin: 7px auto;
+            border-radius: 10px;
+        }
+        .ntn {
+            width: 20%;
+        }
+    }
+    
+    @media only screen and (max-width:376px) {
+        section.contact {
+            width: 410px;
+        }
+        footer {
+            width: 410px;
+            font-size: 15px;
+        }
+        .navbar {
+            width: 410px;
+        }
+        section.main {
+            width: 410px;
+        }
+        section.side-main {
+            width: 410px;
+        }
+    }
+    
+    @media only screen and (max-width:321px) {
+        section.contact {
+            width: 400px;
+        }
+        footer {
+            width: 400px;
+            font-size: 15px;
+        }
+        .navbar {
+            width: 400px;
+        }
+        section.main {
+            width: 400px;
+        }
+        section.side-main {
+            width: 400px;
+        }
+    }

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    position: sticky;
+    cursor: pointer;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url("a.jpeg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.navbar ul {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar ul div {
+    width: 28%;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: auto;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.burger {
+    width: 10%;
+    right: 0px;
+    top: 10px;
+    position: absolute;
+    display: none;
+}
+
+.burger div {
+    width: 33px;
+    height: 5px;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    color: grey;
+}
+
+.navbar ul div img {
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.navbar div.search {
+    width: 50%;
+    text-align: right;
+    margin: auto;
+}
+
+.navbar div.search input {
+    width: 25%;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.navbar div.search button {
+    font-size: 12px;
+}
+
+section.main {
+    height: 85vh;
+}
+
+section.main .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+section.main .box .box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+section.main .box .box1 p {
+    margin: 0 auto;
+    padding: 0 184px;
+}
+
+button {
+    margin: 10px;
+    width: 10%;
+    padding: 10px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: red;
+}
+
+section.main .box .box1 button {
+    padding: 10px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px auto;
+}
+
+section.main .box .box1 button:hover {
+    color: red;
+}
+
+section.main .box .box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+section.main .box .box2 img {
+    display: block;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40%;
+}
+
+section.side-main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+}
+
+section.side-main div .para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+section.side-main div .para h1 {
+    margin: 5px auto;
+}
+
+section.side-main .card1 {
+    display: flex;
+}
+
+section.side-main .card2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+section.side-main .card3 {
+    display: flex;
+}
+
+section.side-main div .img {
+    display: block;
+    margin: auto;
+}
+
+section.side-main div .img img {
+    border: 5px solid grey;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+section.contact {
+    display: block;
+    background-color: grey;
+    height: 600px;
+}
+
+section.contact h1 {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.contact input {
+    font-size: 20px;
+    display: block;
+    width: 400px;
+    margin: 10px auto;
+    font-family: 'Jost', sans-serif;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+section.contact textarea {
+    font-size: 20px;
+    display: block;
+    width: 400px;
+    margin: 10px auto;
+    font-family: 'Jost', sans-serif;
+    border-radius: 10px;
+}
+
+.ntn {
+    display: block;
+    margin: auto;
+    color: white;
+    background: none;
+    border: 3px solid white;
+}
+
+.ntn:hover {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
